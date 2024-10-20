@@ -9,7 +9,7 @@ import javax.persistence.*;
 @Getter // lombok
 @NoArgsConstructor
 @Entity // for JPA
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
