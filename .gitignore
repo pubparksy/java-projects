@@ -8,6 +8,9 @@
 **/._.DS_Store
 
 
+### OAuth ###
+application-oauth.properties
+
 ### Java ###
 # Compiled class file
 *.class
